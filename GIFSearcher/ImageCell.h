@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ImageCell.h
 //  GIFSearcher
 //
 //  Created by Ivan on 12.06.16.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ImageCell : UITableViewCell
 
+@property (weak, nonatomic) IBOutlet UIImageView *cellPicture;
 
 @end
-

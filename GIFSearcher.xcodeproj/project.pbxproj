@@ -9,23 +9,36 @@
 /* Begin PBXBuildFile section */
 		BF33C5541D0D62F900331C03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF33C5531D0D62F900331C03 /* main.m */; };
 		BF33C5571D0D62F900331C03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF33C5561D0D62F900331C03 /* AppDelegate.m */; };
-		BF33C55A1D0D62F900331C03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF33C5591D0D62F900331C03 /* ViewController.m */; };
+		BF33C55A1D0D62F900331C03 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF33C5591D0D62F900331C03 /* MainViewController.m */; };
 		BF33C55D1D0D62F900331C03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF33C55B1D0D62F900331C03 /* Main.storyboard */; };
 		BF33C55F1D0D62F900331C03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF33C55E1D0D62F900331C03 /* Assets.xcassets */; };
 		BF33C5621D0D62F900331C03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF33C5601D0D62F900331C03 /* LaunchScreen.storyboard */; };
+		BF34FE551D0D6652007ABF74 /* Gifs.m in Sources */ = {isa = PBXBuildFile; fileRef = BF34FE531D0D6652007ABF74 /* Gifs.m */; };
+		BFB8A2E21D0D9B51000B28E3 /* TableViewContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB8A2E11D0D9B51000B28E3 /* TableViewContainer.m */; };
+		BFB8A2E51D0DA8DC000B28E3 /* ImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB8A2E41D0DA8DC000B28E3 /* ImageCell.m */; };
+		DE42665DBF27BD794D67BCFA /* libPods-GIFSearcher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FAAE0070C2F28C59370D28B /* libPods-GIFSearcher.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A62041470BBB9F2BFB84604 /* Pods-GIFSearcher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIFSearcher.release.xcconfig"; path = "Pods/Target Support Files/Pods-GIFSearcher/Pods-GIFSearcher.release.xcconfig"; sourceTree = "<group>"; };
+		298A8EF7D631ED66BB8F01A6 /* Pods-GIFSearcher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIFSearcher.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GIFSearcher/Pods-GIFSearcher.debug.xcconfig"; sourceTree = "<group>"; };
+		7FAAE0070C2F28C59370D28B /* libPods-GIFSearcher.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GIFSearcher.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF33C54F1D0D62F900331C03 /* GIFSearcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GIFSearcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF33C5531D0D62F900331C03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BF33C5551D0D62F900331C03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BF33C5561D0D62F900331C03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BF33C5581D0D62F900331C03 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BF33C5591D0D62F900331C03 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF33C5581D0D62F900331C03 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		BF33C5591D0D62F900331C03 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		BF33C55C1D0D62F900331C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF33C55E1D0D62F900331C03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF33C5611D0D62F900331C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF33C5631D0D62F900331C03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF34FE521D0D6652007ABF74 /* Gifs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gifs.h; sourceTree = "<group>"; };
+		BF34FE531D0D6652007ABF74 /* Gifs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gifs.m; sourceTree = "<group>"; };
+		BFB8A2E01D0D9B51000B28E3 /* TableViewContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewContainer.h; sourceTree = "<group>"; };
+		BFB8A2E11D0D9B51000B28E3 /* TableViewContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewContainer.m; sourceTree = "<group>"; };
+		BFB8A2E31D0DA8DC000B28E3 /* ImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCell.h; sourceTree = "<group>"; };
+		BFB8A2E41D0DA8DC000B28E3 /* ImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +46,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE42665DBF27BD794D67BCFA /* libPods-GIFSearcher.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64FC9585A6A905F4C6ADAE15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				298A8EF7D631ED66BB8F01A6 /* Pods-GIFSearcher.debug.xcconfig */,
+				1A62041470BBB9F2BFB84604 /* Pods-GIFSearcher.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BF33C5461D0D62F900331C03 = {
 			isa = PBXGroup;
 			children = (
 				BF33C5511D0D62F900331C03 /* GIFSearcher */,
 				BF33C5501D0D62F900331C03 /* Products */,
+				64FC9585A6A905F4C6ADAE15 /* Pods */,
+				F196FD06DD2087B702F48B69 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +83,16 @@
 		BF33C5511D0D62F900331C03 /* GIFSearcher */ = {
 			isa = PBXGroup;
 			children = (
+				BF34FE521D0D6652007ABF74 /* Gifs.h */,
+				BF34FE531D0D6652007ABF74 /* Gifs.m */,
 				BF33C5551D0D62F900331C03 /* AppDelegate.h */,
 				BF33C5561D0D62F900331C03 /* AppDelegate.m */,
-				BF33C5581D0D62F900331C03 /* ViewController.h */,
-				BF33C5591D0D62F900331C03 /* ViewController.m */,
+				BFB8A2E01D0D9B51000B28E3 /* TableViewContainer.h */,
+				BFB8A2E11D0D9B51000B28E3 /* TableViewContainer.m */,
+				BFB8A2E31D0DA8DC000B28E3 /* ImageCell.h */,
+				BFB8A2E41D0DA8DC000B28E3 /* ImageCell.m */,
+				BF33C5581D0D62F900331C03 /* MainViewController.h */,
+				BF33C5591D0D62F900331C03 /* MainViewController.m */,
 				BF33C55B1D0D62F900331C03 /* Main.storyboard */,
 				BF33C55E1D0D62F900331C03 /* Assets.xcassets */,
 				BF33C5601D0D62F900331C03 /* LaunchScreen.storyboard */,
@@ -79,6 +110,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F196FD06DD2087B702F48B69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FAAE0070C2F28C59370D28B /* libPods-GIFSearcher.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +125,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF33C5661D0D62F900331C03 /* Build configuration list for PBXNativeTarget "GIFSearcher" */;
 			buildPhases = (
+				819DEEC1B98EB55148431915 /* [CP] Check Pods Manifest.lock */,
 				BF33C54B1D0D62F900331C03 /* Sources */,
 				BF33C54C1D0D62F900331C03 /* Frameworks */,
 				BF33C54D1D0D62F900331C03 /* Resources */,
+				86FB874A22937F81543F2827 /* [CP] Embed Pods Frameworks */,
+				22EB27EF22548EA6685750E9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,6 +152,7 @@
 				TargetAttributes = {
 					BF33C54E1D0D62F900331C03 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4THGBBN84W;
 					};
 				};
 			};
@@ -144,13 +187,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22EB27EF22548EA6685750E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GIFSearcher/Pods-GIFSearcher-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		819DEEC1B98EB55148431915 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		86FB874A22937F81543F2827 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GIFSearcher/Pods-GIFSearcher-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BF33C54B1D0D62F900331C03 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF33C55A1D0D62F900331C03 /* ViewController.m in Sources */,
+				BFB8A2E51D0DA8DC000B28E3 /* ImageCell.m in Sources */,
+				BFB8A2E21D0D9B51000B28E3 /* TableViewContainer.m in Sources */,
+				BF33C55A1D0D62F900331C03 /* MainViewController.m in Sources */,
 				BF33C5571D0D62F900331C03 /* AppDelegate.m in Sources */,
+				BF34FE551D0D6652007ABF74 /* Gifs.m in Sources */,
 				BF33C5541D0D62F900331C03 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,23 +355,31 @@
 		};
 		BF33C5671D0D62F900331C03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 298A8EF7D631ED66BB8F01A6 /* Pods-GIFSearcher.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = GIFSearcher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ivan.GIFSearcher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		BF33C5681D0D62F900331C03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A62041470BBB9F2BFB84604 /* Pods-GIFSearcher.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = GIFSearcher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ivan.GIFSearcher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -300,6 +402,7 @@
 				BF33C5681D0D62F900331C03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
